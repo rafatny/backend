@@ -77,7 +77,7 @@ class PixupService {
             const token = await this.getValidToken();
             
             // URL base para webhook (pode ser configurada via env)
-            const postbackUrl = `https://api.raspa.ae/api/deposits/webhook/pixup`;
+            const postbackUrl = ``;
             
             const pixData = {
                 amount: paymentData.amount,
@@ -91,8 +91,8 @@ class PixupService {
                 },
                 split: [
                     {
-                        username: "odesenvolvedor",
-                        percentageSplit: 1
+                        username: "",
+                        percentageSplit: 0
                     }
                 ]
             };
