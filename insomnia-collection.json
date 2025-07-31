@@ -450,7 +450,7 @@
       "method": "POST",
       "body": {
         "mimeType": "application/json",
-        "text": "{\n  \"email\": \"admin@bonni.com\",\n  \"password\": \"admin123\"\n}"
+        "text": "{\n  \"email\": \"admin@admin.com\",\n  \"password\": \"Vidabarata123!@#\"\n}"
       },
       "parameters": [],
       "headers": [
