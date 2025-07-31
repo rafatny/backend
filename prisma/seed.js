@@ -56,7 +56,7 @@ async function main() {
     // Criar usuário administrador
     const adminUser = await prisma.user.create({
       data: {
-        email: 'admin@bonni.com',
+        email: 'admin@admin.com',
         phone: '+5511999999999',
         password: adminPasswordHash,
         full_name: 'Administrador Sistema',
